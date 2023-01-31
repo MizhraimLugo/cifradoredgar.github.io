@@ -1,0 +1,252 @@
+body{
+    background: whitesmoke;
+}
+
+ 
+.nav{
+    width: 80%;
+    height: 150px;
+    margin: 30px 10%;
+    border-radius: 20px;
+    background: rgb(15, 78, 155);
+    box-shadow: 20px 20px 90px 8px gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-text-stroke: medium;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    background: #2B3467;
+}
+
+#h1 {
+    background: none;
+}
+
+.texto_inicio {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 150%;
+    color: white;
+}
+
+.principal {    
+    font-family: 'Covered By Your Grace', cursive;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.encriptar {
+    font-family: 'Covered By Your Grace', cursive;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.condiciones {
+    font-family: 'Covered By Your Grace', cursive;
+    background: rgba(255, 255, 255, 0) ;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0 1%;
+    border-radius: 0 0 10px 10px;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0)
+
+}
+
+li {
+    margin: 3px;
+}
+/*# Cuadro texto para encryptar */
+.cuadrosTextoE {
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+    margin: 0 1%;
+    resize: none;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    outline: none;
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 20px 20px 90px 8px gray; 
+    padding: 20px;
+    font-size: 17px;
+}
+
+.desencriptar {
+    font-family: 'Covered By Your Grace', cursive;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+/*# Cuadro texto para copiar  */
+.cuadrosTextoD {
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 20px 20px 90px 8px gray; 
+    font-size: 17px;
+    padding: 20px;
+    height: 320px;
+}
+
+::placeholder { 
+    color: #000000; 
+}
+
+button#btn {
+    background-color:#ffffff;
+    background: rgb(15, 78, 155);
+    box-shadow: 20px 20px 90px 8px gray; 
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2px 0 0 0;
+}
+
+button#btn:hover {
+    color: white;
+    background: rgb(15, 78, 155);
+}
+
+
+#divBotones {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.boton {
+    margin: 20px;
+    width: 50%;
+    height: 45px;
+    border-radius: 20px;
+    border: 0;
+    background: rgb(15, 78, 155);
+    box-shadow: 20px 20px 90px 8px gray; 
+    color: white;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.boton:hover{
+    background: #F5EDCE;
+    font-size: 18px;
+    background: rgb(15, 78, 155);
+}
+
+.inferior {
+    margin-top: 100px;
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: space-around
+}
+
+.logoF {
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    margin-right: 13px;
+    margin-bottom: 5px;
+}
+
+.logoOne , .logoAlura, .logoCreador {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+    width: 50%;
+    margin: 20px;
+    font-size: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width:480px){
+    
+    .bienvenidos{
+        font-size: 100%;
+    }
+    
+    .principal {    
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    #divBotones{
+        margin-top: 4%;
+    }
+
+    .cuadrosTextoE{
+        font-size: 14px;
+    }
+
+    .encriptar {
+        width: 80%;
+        margin-bottom: 5%;
+        height: 300px;
+    }
+    
+    li {
+        margin: 3px;
+        font-size: 14px;
+    }
+ 
+    .desencriptar {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    button#btn {
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

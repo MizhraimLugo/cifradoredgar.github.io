@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Programa de encriptacion</title>
+        
+        <style> 
+            body { 
+                background-image: src="images/fondo.gif"; 
+                background-position: center 25%; 
+                background-size: cover; 
+            } 
+        </style> 
+
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+          </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+          </style>
+       <style>
+              @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+          </style>
+        <script src="script.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="nav">
+                <div>
+                    <img class="logo" src="imagenes/logo_alura.jpg" alt="alura">
+                    <img class="logo" src="imagenes/logo_one.jpg" alt="Creador">
+                </div>
+                <h1 class="texto_inicio">PROGRAMA DE ENCRIPTACIÓN Y DESENCRIPTACION</h1>
+            </div> 
+                          
+        </header>
+
+        <main>
+            
+                <div class="principal">
+                    <div class="encriptar">
+                        <textarea id="text1" autofocus rows="10" autocorect="on" class="cuadrosTextoE" placeholder="Escribe el mensaje que desea encriptar o desencriptar"></textarea>
+                        <ul id="condiciones" class="condiciones">
+                            <li>Ingrese solo letras minúsculas</li>
+                            <li>NO usar caracteres especiales</li>
+                            <li>NO usar letras con acento</li>
+                        </ul>
+                        <div id="divBotones">
+                            <button class="boton" onclick="validarE()">Encriptar</button>
+                            <button class="boton" onclick="validarD()">Desencriptar</button>
+                        </div>   
+                    </div>
+                    
+                    <div class="desencriptar">
+                        <textarea id="text2" disabled rows="9" autocorect="on" class="cuadrosTextoD" placeholder="Mensaje encriptado"></textarea>
+                        <button id="btn" onclick="copiar()">Copiar</button>
+                    </div>
+                    
+                </div>        
+            
+        </main>
+
+        <footer class="inferior">
+
+            <div class="logotipos">
+                <div class="logo_Alura">
+                    <img id="alura"class="logoF" src="imagenes/logo_alura.jpg" alt="logo ALURA">
+                    <p class="logoT">Alura LATAM</p>
+
+                    <div class="logo_One">
+                        <img class="logoF" src="imagenes/logo_one.jpg" alt="logo ONE">
+                        <p class="logoT">Oracle Next Education</p>
+                    </div>
+                    
+                </div>
+                <p>&copy; |  Realizado por EMLG | </p>
+            </div>
+            
+       
+
+                    
+        </footer>
+
+    </body>
+    
+
+
+</html>
